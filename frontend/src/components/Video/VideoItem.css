@@ -1,0 +1,48 @@
+.video-item {
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+    height: 490px;
+    margin-bottom: 10px;
+    min-width: 300px;
+    padding: 5px;
+    transition: border-color .3s ease-out;
+    width: 49%;
+}
+
+.video-item:hover {
+    border-color: #000;
+}
+
+.video-item__header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.video-item__header span {
+    color: red;
+    cursor: pointer;
+    font-size: 25px;
+    height: 30px;
+    text-align: center;
+    transition: all .3s ease-out;
+    width: 30px;
+}
+
+.video-item__header span:hover {
+    color: #fff;
+    background: red;
+}
+
+.video-item h2 {
+    font-size: 20px;
+}
+
+.video-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.video-item p {
+    margin-top: 10px;
+}

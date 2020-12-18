@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #363636;
+}
+
+.navbar-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: #c7c7c7;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.nav-link:last-of-type{
+    margin-right: 0;
+}
+
+.active {
+    color: #ffffff;
+    font-weight: bold;
+}

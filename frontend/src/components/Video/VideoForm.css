@@ -1,0 +1,51 @@
+.row {
+    margin: auto;
+    width: 65%;
+}
+
+form {
+    border: 1px solid #000;
+    padding: 30px 20px;
+}
+
+.form-control {
+    border: 1px solid #000;
+    font-size: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 5px;
+    transition: box-shadow .3s ease-out;
+    width: 100%;
+}
+
+.form-control:focus {
+    box-shadow: 2px 2px #7128c5;
+}
+
+.form-control:last-child {
+    margin-bottom: 0;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+.btn {
+    display: block;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-primary {
+    background: #7128c5;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    transition: background .3s ease-out;
+}
+
+.btn-primary:hover {
+    background: #9a41ff;
+}

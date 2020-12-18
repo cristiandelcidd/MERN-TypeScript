@@ -1,0 +1,14 @@
+.warning-message {
+    background-color: #f72828;
+    display: block;
+    margin-top: 10px;
+    padding: 20px;
+    width: 100%;
+    transition: all .3s ease-in;
+}
+
+.warning-message p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
